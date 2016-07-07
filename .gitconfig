@@ -1,0 +1,39 @@
+[user]
+    name          = yuki-nit2a
+    email         = yuki@nit2a.com
+    useConfigOnly = true
+
+[core]
+    autocrlf = false
+
+[color]
+    branch      = auto
+    diff        = auto
+    grep        = auto
+    interactive = auto
+    pager       = true
+    showBranch  = true
+    status      = auto
+	ui          = true
+
+[diff]
+    patience = true
+
+[help]
+    autocorrect = 0
+
+[alias]
+    a  = add
+    b  = branch
+    c  = commit
+    d  = diff --name-only
+    g  = stash save
+    gg = stash list
+    l  = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+    ll = log --oneline --since='24 hours ago'
+    s  = status
+
+    comeon = clone --recursive
+
+[push]
+	default = simple
